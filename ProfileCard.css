@@ -1,0 +1,40 @@
+.profile-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #646464, #000000);
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    background-color: #fff4f4;
+}
+
+  .profile-card:hover {
+    transform: translateY(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+    
+  }
+  
+  .name {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .job {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .city {
+    font-size: 16px;
+  }
+  
